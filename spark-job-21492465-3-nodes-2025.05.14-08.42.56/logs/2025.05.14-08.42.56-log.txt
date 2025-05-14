@@ -1,0 +1,37 @@
+SPARK_CONF_DIR: /home/sboonso1/is789sp25_user/sboonso1/project/spark-job-21492465-3-nodes-2025.05.14-08.42.56/spark-conf
+master:cnode002
+slaves: cnode003
+cnode004
+starting org.apache.spark.deploy.master.Master, logging to /umbc/rs/is789sp25/common/software/spark-3.5.0-bin-hadoop3/logs/spark-sboonso1-org.apache.spark.deploy.master.Master-1-cnode002.out
+cnode004: starting org.apache.spark.deploy.worker.Worker, logging to /umbc/rs/is789sp25/common/software/spark-3.5.0-bin-hadoop3/logs/spark-sboonso1-org.apache.spark.deploy.worker.Worker-1-cnode004.out
+cnode003: starting org.apache.spark.deploy.worker.Worker, logging to /umbc/rs/is789sp25/common/software/spark-3.5.0-bin-hadoop3/logs/spark-sboonso1-org.apache.spark.deploy.worker.Worker-1-cnode003.out
++-----+
+|CLASS|
++-----+
+|    1|
+|    0|
++-----+
+
+Naive Bayes Metrics:
+Accuracy: 0.8859060402684564
+Precision: 0.8861103005544209
+Recall: 0.8859060402684564
+F1 Score: 0.8859681125138561
+Logistic Regression Metrics:
+Accuracy: 0.802013422818792
+Precision: 0.8017703002724508
+Recall: 0.802013422818792
+F1 Score: 0.8016640731897597
+Decision Tree Metrics:
+Accuracy: 0.8389261744966443
+Precision: 0.8528067103449377
+Recall: 0.8389261744966443
+F1 Score: 0.8354271925194179
+Random Forest Metrics:
+Accuracy: 0.8657718120805369
+Precision: 0.8755345111835188
+Recall: 0.8657718120805369
+F1 Score: 0.8636640709647747
+cnode004: stopping org.apache.spark.deploy.worker.Worker
+cnode003: stopping org.apache.spark.deploy.worker.Worker
+stopping org.apache.spark.deploy.master.Master
